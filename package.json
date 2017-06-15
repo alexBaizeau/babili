@@ -36,12 +36,12 @@
     "coverageDirectory": "./coverage/"
   },
   "devDependencies": {
-    "babel-core": "7.0.0-alpha.6",
+    "babel-core": "7.0.0-alpha.12",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
-    "babel-plugin-transform-es2015-block-scoping": "^6.24.1",
+    "babel-plugin-transform-es2015-block-scoping": "7.0.0-alpha.12",
     "babel-preset-env": "^1.5.2",
-    "babel-traverse": "7.0.0-alpha.3",
+    "babel-traverse": "7.0.0-alpha.12",
     "butternut": "^0.4.6",
     "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
