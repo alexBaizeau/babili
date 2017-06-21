@@ -2710,4 +2710,14 @@ describe("dce-plugin", () => {
     `);
     expect(transform(source)).toBe(expected);
   });
+
+  it("should deopt when binding is on different scope - issue #574", () => {
+    const source = unpad(`
+      function foo(v) {
+        if (v) var w = 10;
+        if (w) console.log("hello", v);
+      }
+    `);
+    expect(transform(source)).toBe(source);
+  });
 });
